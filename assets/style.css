@@ -1,5 +1,14 @@
+body{
+    background-color: #EBFED2;
+}
 #headshot{
     width:25%;
     height: auto;
     margin:5px;
+}
+.jumbotron{
+    background-color: #BACCFF;
+}
+.container{
+    margin-top: 2%;
 }
