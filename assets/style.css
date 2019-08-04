@@ -1,42 +1,48 @@
 .background{
-    background-image: url("../background.PNG");
-    filter: blur(10px);
-    -webkit-filter: blur(10px);
-    height: 100%;
+    position: fixed;
     left: 0;
     right: 0;
-    z-index: 1;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #5b899169;
-}
+    z-index: -1;
+  
+    display: block;
+    background-image: url('../background.PNG');
+    background-size:cover;
+    width: 110%;
+    height: 110%;
+  
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+  }
+
 #headshot{
     width:25%;
     height: auto;
     margin:5px;
 }
 .jumbotron{
-    background-color: #124f67;
+    background-color:#124f67;
+    color: #f5f7e2;
 }
 .container{
-    margin-top: 2%;
-    left: 0;
-    right: 0;
+    padding-top: 2%;
     z-index: 9999;
-    position: fixed;
 }
 
 .carousel-caption{
     background-color:#b7c6b5b4;
     border-radius: 25px;
 }
-.carousel-item{
-
-}
 .carousel_pic{
     border-radius: 25px;
 }
-li:hover{
 
+.list-group-item{
+    background-color: #124f67;
+    
+}
+.list-group-item:hover{
+    background-color: #5b8991;
 }
